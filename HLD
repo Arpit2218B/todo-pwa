@@ -1,0 +1,31 @@
+Requirements -
+ - Functional
+   - Authentication
+     - via google
+     - add a pin for further access once loggd in
+   - Join a team
+     - Use a link or code to join a team
+   - Create team
+     - Create new team
+     - Add new members via link or code
+     - Assign roles to team members (ADMIN | USER)
+     - Remove a member from the team
+   - Task manager
+     - Create new task
+     - Edit task
+     - Delete task
+     - Change task status (DONE)
+     - Search tasks
+   - Task delegation
+     - Assign tasks to other user
+ - Non-functional
+   - Reminders
+     - For task due today
+   - Offline access
+     - Allow users to see their tasks even when offline
+   - Auto Sync when online
+     - Allow users to edit status of tasks when offline
+     - Not for edit task or change
+   - App Shell Architecture
+     - Allow the basic app to be loaded first and then the data
+   - Responsive Design
